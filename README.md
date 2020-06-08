@@ -298,7 +298,7 @@ build_script:
 EOF
 ```
 ```
-$ ex -sc '1i|[![Build Status](https://travis-ci.org/Tasia11/hw04.svg?branch=master)](https://travis-ci.org/Tasia11/lab04)' -cx README.md
+$ ex -sc '1i|[![Build Status](https://travis-ci.org/Tasia11/lab04.svg?branch=master)](https://travis-ci.org/Tasia11/lab04)' -cx README.md
 $ ex -sc '2i|[![Build status](https://ci.appveyor.com/api/projects/status/wkbl6ku2g573k1v4?svg=true)](https://ci.appveyor.com/project/Tasia11/lab04)' -cx README.md
 ```
 
