@@ -1,20 +1,14 @@
-language: ruby
-rvm:
- - 2.4.2
- - jruby
- before_install:
-  - gem install rake
 language: cpp
 
 script:
--cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
--cmake --build _build
--cmake --build _build --target install
+- cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
+- cmake --build _build
+- cmake --build _build --target install
 
 addons:
   apt:
     sources:
  - george-edison55-precise-backports
     packages:
-      - cmake
-      - cmake-data
+ - cmake
+ - cmake-data
