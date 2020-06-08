@@ -5,6 +5,9 @@ jobs:
   include:
   - name: "all projects"
 
+before_install:
+  - gem install rake
+  
 script:
 -cmake -H. -B_build -DCMAKE_INSTALL_PREFIX=_install
 -cmake --build _build
