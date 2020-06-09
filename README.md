@@ -1,4 +1,5 @@
 ## Laboratory work IV
+[![Build Status](https://travis-ci.org/nastya-asya/lab04.svg?branch=master)](https://travis-ci.org/nastya-asya/lab04)
 
 <a href="https://yandex.ru/efir/?stream_id=vCgeA9EiySzw"><img src="https://raw.githubusercontent.com/tp-labs/lab04/master/preview.png" width="640"/></a>
 
@@ -202,6 +203,8 @@ $ gist REPORT.md
 ```
 
 ## Homework
+
+[![Build Status](https://travis-ci.com/nastya-asya/hw04.svg?branch=master)](https://travis-ci.com/nastya-asya/hw04) [![Build Status](https://ci.appveyor.com/api/projects/status/wkbl6ku2g573k1v4?svg=true)](https://ci.appveyor.com/project/nastya-asya/hw04)
 
 Вы продолжаете проходить стажировку в "Formatter Inc." (см [подробности](https://github.com/tp-labs/lab03#Homework)).
 ```
